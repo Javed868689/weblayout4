@@ -1,0 +1,297 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* header section start */
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #101B37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+header ul {
+    display: flex;
+    
+}
+header ul li {
+    padding: 0px 10px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* header section end */
+
+/* banner section start */
+
+.banner{
+    width: 100%;
+    height: 800px;
+    background: url("../img/img1.jpg");
+    background-size: cover;
+}
+.banner p{
+    font-size: 50px;
+    padding: 280px 0px 0px 180px;
+    font-weight: normal;
+}
+.banner h2{
+    padding: 15px 0px 0px 200px;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner form{
+    width: 70%;
+    height: 100px;
+    background-color: #5C317A;
+    margin: 200px 0px 0px 210px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.banner form .searchButton button{
+    background-color: #3A3056;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin: 5px 10px;
+   
+}
+.banner form .searchInput input{
+  height: 25px;
+  width: 140px;
+  margin-left: 10px;
+}
+.banner form .searchInput label{
+    display: none;
+}
+.banner form button.smt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 70px;
+    border: none;
+    background-color: #F15666;
+}
+.banner form .option{
+    margin-top: 10px;
+    color: #fff;
+}
+.banner .option a{
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* /banner section end */
+
+/* fun section start  */
+
+.fun{
+    width: 100%;
+    height: 400px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/burj.jpg");
+    background-size:contain;
+}
+.fun h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.fun .box{
+    justify-content: space-between;
+    padding:60px 60px;
+}
+.fun .box div{
+    width: 200px;
+    height: 200px;
+    background-color: #364147;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    
+}
+
+
+/* /fun section end */
+
+/* subscribe section start */
+
+.subscribe{
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/aeroplane.jpg);
+    background-size: cover;
+    text-align: center;
+   
+}
+.subscribe h1{
+    padding-top: 60px;
+    color: #fff;
+    font-size: 30px;
+}
+.subscribe p{
+    padding: 30px 300px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+}
+.subscribe input{
+    width: 300px;
+    height: 30px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    color: #fff;
+    padding-left: 50px;
+    
+    
+}
+.subscribe button{
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+/* /subscribe section end */
+
+/* Destination section start */
+
+.destination{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-color: #1F152F;
+    text-align: center;
+    padding-top: 20px;
+}
+.destination ul{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-template-rows:400px 400px;
+    grid-gap:30px;
+    padding: 30px 30px;
+}
+.destination ul li{
+    list-style: none;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+.destination ul li img{
+    width: 288px;
+    height: 250px;
+    border-radius: 15px;
+}
+.destination ul li p{
+    padding: 10px 0px;
+}
+
+/* /Destination section end */
+
+/* Estimate section start */
+
+.estimate{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: #664BAD;
+    padding: 30px 0px 0px 20px;
+    color: #fff;
+}
+.estimate h2{
+    font-size: 40px;
+}
+.estimate h3{
+    font-size: 25px;
+}
+.estimate select,
+.estimate input{
+    width: 200px;
+    height: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.estimate button{
+    width: 200px;
+    height: 50px;
+    background: #FF9000;
+    border: none;
+    border-radius: 10px;
+}
+.estimate label{
+    display: none;
+}
+.estimate img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* /Estimate section end */
+
+/* blog section start */
+
+.blog{
+    width: 100%;
+    height: 400px;
+}
+.blog h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.blog h1+p{
+    text-align: center;
+    padding: 20px 200px;
+    font-size: 20px;
+}
+.blog div.main{
+    display: flex;
+    padding: 30px 50px;
+}
+.blog div.left{
+    display:inline-block;
+    padding: 0px 30px;
+}
+.blog div.right{
+    display: inline-block;
+    margin: 0px 30px;
+}
+.blog div.main h3 + p,
+.blog div.main h3{
+    padding-top: 25px;
+}
+.blog div.main p span{
+    color: rgb(58, 4, 146);
+    font-weight: bold;
+}
+
+/* /blog section end */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #201A28;
+}
+
+
+/* /footer section end */
+
